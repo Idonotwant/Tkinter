@@ -19,7 +19,7 @@ FONT_TEXT = ('microsoft yahei',15)
 
 #tk environment setting
 root = tk.Tk()
-root.title('B09901102_Motto')
+root.title('Motto')
 
 windowWidth = 600
 windowHeight = 400
