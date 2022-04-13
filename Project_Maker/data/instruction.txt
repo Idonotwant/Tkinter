@@ -1,0 +1,8 @@
+----------------------------------------------------------------------------------
+Wellcome to Project_Maker,this program help you to set up my project in my way
+Mode 0:
+quick start
+Mode 1:
+general one
+enjoy...
+----------------------------------------------------------------------------------
