@@ -7,15 +7,13 @@ Note:
 a rough program to help me make project easier
 but I beleive that there is a lot to be improved in fileIO
 '''
-
-from distutils.log import error
 import os
 import time
 import json
 
 
-SETTING_FILE_NAME = "../data/setting.json"
-InSTRUCTION_FILE_NAME = "../data/instruction.txt"
+SETTING_FILE_NAME = f"..{os.sep}data{os.sep}setting.json"
+InSTRUCTION_FILE_NAME = f"..{os.sep}data{os.sep}instruction.txt"
 
 def timeCatcher():#return current date
     t = time.localtime()
@@ -50,14 +48,14 @@ def projectMaker(setting,userinput):
         print(setting)
         name = setting['ProjectName']
         try:
-            os.mkdir(f"../../{name}")
-            os.mkdir(f"../../{name}/data")
-            os.mkdir(f"../../{name}/src")
-            os.mkdir(f"../../{name}/packages")
+            os.mkdir(f"..{os.sep}..{os.sep}{name}")
+            os.mkdir(f"..{os.sep}..{os.sep}{name}{os.sep}data")
+            os.mkdir(f"..{os.sep}..{os.sep}{name}{os.sep}src")
+            os.mkdir(f"..{os.sep}..{os.sep}{name}{os.sep}packages")
         except:
             print("ProjectMakerERROR")
         try:
-            with open(f"../../{name}/src/{name}.py","w") as f:
+            with open(f"..{os.sep}..{os.sep}{name}{os.sep}src{os.sep}{name}.py","w") as f:
                 f.write("'''\n")
                 for item in setting.keys():
                     itemV = setting[item]
