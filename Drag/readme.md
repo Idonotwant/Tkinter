@@ -22,5 +22,9 @@ NOTE: tkinterDND2 is under tkinterDND2-30,error accurs if you copy wrong dir
 ```import Drag from Dragger```
 * See demo.py as a quick refernce 😷
 * Enjoy
-
- 
+# 4. referrence
+* [Vedio](https://www.youtube.com/watch?v=JIy0QjwQBl0)
+I referred this vidio when I know nothing about dropping
+,it helps a lot whether in installation and coding
+# 5. reflection
+* empty
